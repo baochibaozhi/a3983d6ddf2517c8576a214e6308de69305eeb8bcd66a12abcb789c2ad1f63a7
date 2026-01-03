@@ -3,23 +3,21 @@ name: baochibaozhi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 3/6 * * *'
+    - cron: '35 4/6 * * *'
 
-jobs:  # 27530
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: baochibaozhi
         env:
-          nxz4878: ${{ secrets.nxz4878 }}
+          j55658: ${{ secrets.j55658 }}
         run: |
-          echo $nxz4878 | jq -r .ayji5882 | /bin/bash
-          echo $xcapt7 | jq -r .mzxmj6862 | /bin/bash
-          echo $zywpb68 | jq -r .bop095 | /bin/bash
-          echo $vk13280 | jq -r .f28193 | /bin/bash
-          echo $wbgo67770 | jq -r .st23 | /bin/bash
-          echo $okwu24 | jq -r .bqb7845 | /bin/bash
-          echo $jxc3207 | jq -r .hit8586 | /bin/bash
-          echo $g586 | jq -r .duz35 | /bin/bash
+          echo $j55658 | jq -r .mm3057 | /bin/bash
+          echo $rsvgx909 | jq -r .x0 | /bin/bash
+          echo $vf643 | jq -r .jy46 | /bin/bash
+          echo $smb78742 | jq -r .kb9412 | /bin/bash
+          echo $hr10838 | jq -r .unqze23 | /bin/bash
 
