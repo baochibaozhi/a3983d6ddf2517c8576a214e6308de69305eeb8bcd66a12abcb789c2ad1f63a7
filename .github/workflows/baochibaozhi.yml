@@ -1,10 +1,8 @@
 name: baochibaozhi
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 4/6 * * *'
-
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,11 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: baochibaozhi
         env:
-          j55658: ${{ secrets.j55658 }}
+          rjotx61: ${{ secrets.rjotx61 }}
         run: |
-          echo $j55658 | jq -r .mm3057 | /bin/bash
-          echo $rsvgx909 | jq -r .x0 | /bin/bash
-          echo $vf643 | jq -r .jy46 | /bin/bash
-          echo $smb78742 | jq -r .kb9412 | /bin/bash
-          echo $hr10838 | jq -r .unqze23 | /bin/bash
+          echo $rjotx61 | jq -r .m20133 | /bin/bash
+          echo $gnvy28383 | jq -r .wdjn1 | /bin/bash
+          echo $dkp6440 | jq -r .kxv2 | /bin/bash
+          echo $yzi720 | jq -r .okrx1 | /bin/bash
+          echo $hcdf95 | jq -r .rzr14840 | /bin/bash
+          echo $rgqdi1 | jq -r .kdzwq856 | /bin/bash
+          echo $hdj1144 | jq -r .zzqj00008 | /bin/bash
 
